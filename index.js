@@ -59,6 +59,15 @@ Auth.prototype.register = function (strategyName, authData, call) {
         strategy.register(authData, call);
     }
 };
+Auth.prototype.addClientData = function (strategyName, key,value, call) {
+    var self = this;
+    var strategy = this.strategies[strategyName];
+    if (!strategy) {   //here are only functions present
+        call({code: self.ERROR_NO_STRATEGY});
+    } else {
+        strategy.addClientData(key,value);
+    }
+};
 Auth.prototype.getLoadedStrategies = function () {
     return Object.keys(this.strategies);
 };
