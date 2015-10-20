@@ -1,0 +1,29 @@
+{
+  "name": "authentify",
+  "version": "0.0.5",
+  "description": "authentication middleware",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mint-lemon-eucalyptus/oge.authentify.git"
+  },
+  "author": {
+    "name": "mint"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mint-lemon-eucalyptus/oge.authentify/issues"
+  },
+  "readme": "ERROR: No README data found!",
+  "homepage": "https://github.com/mint-lemon-eucalyptus/oge.authentify",
+  "_id": "authentify@0.0.3",
+  "dist": {
+    "shasum": "1f0ff9f3b7ffde15c40972f203bf3e0e40ca7fa3"
+  },
+  "_resolved": "git+https://github.com/mint-lemon-eucalyptus/oge.authentify.git#ad1c567432ed3f343b081e0dfce219a777b05676",
+  "_from": "authentify@git+https://github.com/mint-lemon-eucalyptus/oge.authentify.git"
+}
